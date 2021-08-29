@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T08:44:39Z" name="Suite" finished-at="2021-08-29T08:45:55Z" duration-ms="75781">
+    <groups>
+    </groups>
+    <test started-at="2021-08-29T08:44:39Z" name="LoginTest" finished-at="2021-08-29T08:44:50Z" duration-ms="11717">
+      <class name="testcases.Login_Page">
+        <test-method signature="login()[pri:1, instance:testcases.Login_Page@7d898981]" started-at="2021-08-29T08:44:39Z" name="login" finished-at="2021-08-29T08:44:50Z" duration-ms="11676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcases.Login_Page -->
+    </test> <!-- LoginTest -->
+    <test started-at="2021-08-29T08:44:50Z" name="Search Product" finished-at="2021-08-29T08:45:21Z" duration-ms="30328">
+      <class name="testcases.Search_product">
+        <test-method signature="search()[pri:2, instance:testcases.Search_product@341814d3]" started-at="2021-08-29T08:44:50Z" name="search" finished-at="2021-08-29T08:45:21Z" duration-ms="30326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testcases.Search_product -->
+    </test> <!-- Search Product -->
+    <test started-at="2021-08-29T08:45:21Z" name="Product Page" finished-at="2021-08-29T08:45:55Z" duration-ms="33678">
+      <class name="testcases.Product_Page">
+        <test-method is-config="true" signature="Wc_Intialize()[pri:0, instance:testcases.Product_Page@20c0a64d]" started-at="2021-08-29T08:44:28Z" name="Wc_Intialize" finished-at="2021-08-29T08:44:39Z" duration-ms="10394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wc_Intialize -->
+        <test-method signature="product()[pri:3, instance:testcases.Product_Page@20c0a64d]" started-at="2021-08-29T08:45:21Z" name="product" finished-at="2021-08-29T08:45:54Z" duration-ms="33672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method is-config="true" signature="setupClose()[pri:0, instance:testcases.Product_Page@20c0a64d]" started-at="2021-08-29T08:45:55Z" name="setupClose" finished-at="2021-08-29T08:45:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClose -->
+      </class> <!-- testcases.Product_Page -->
+    </test> <!-- Product Page -->
+  </suite> <!-- Suite -->
+</testng-results>
